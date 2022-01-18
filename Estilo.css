@@ -1,0 +1,238 @@
+a{
+    font-size: large;
+    color: rgb(156, 12, 12);
+}
+
+h5{
+    text-shadow:  2px 2px rgba(46, 45, 45, 0.664) ;
+    color: rgb(156, 12, 12);
+    font-family: 'Changa', sans-serif;
+}
+
+p{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Volkhov', serif;
+}
+
+.banner{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 99%;
+    height: 100px;
+    top: 0px;
+    z-index: 1;
+}
+
+.imagen_banner{
+    position: fixed;
+    top: 15px;
+    left: 300px;
+}
+
+.formulario{
+    position: fixed;
+    float: left;
+    top: 40px;
+    left: 1200px;
+}
+
+.formulario a{
+    color: white;
+}
+
+.formulario button{
+    color: white;
+    background-color: rgb(156, 12, 12);
+}
+
+.slider{
+    position: relative;
+    top: 120px;
+    left: 20px;
+	width: 100%;
+    background-color: rgba(128, 128, 128, 0.144);
+	overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    width: 50%;
+    list-style: none;
+}
+
+@keyframes cambio{
+    0% {margin-left: 20%;}
+	30% {margin-left: 20%;}
+	
+	40% {margin-left: -100%;}
+	60% {margin-left: -100%;}
+	
+	70% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+
+.menu{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.76);
+    overflow: hidden;
+    background-size: 100%;
+    height: 270px;
+    width: 230px;
+    top: 640px;
+    left: 1230px;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.elemento a:hover{background-color: rgb(156, 12, 12)} 
+
+
+.noticia1{
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 930px;
+    position: static;
+    display: block;
+    margin-top: 200px;
+    margin-left: 283px;
+}
+
+
+.noticia2{
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 930px;
+    position: static;
+    display: block;
+    margin-top: 40px;
+    margin-left: 283px;
+}
+
+.noticia3{
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 930px;
+    position: static;
+    display: block;
+    margin-top: 40px;
+    margin-left: 283px;
+}
+
+.noticia4{
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 930px;
+    position: static;
+    display: block;
+    margin-top: 40px;
+    margin-left: 283px;
+}
+
+.noticia5{
+    background-color: rgba(128, 128, 128, 0.205);
+    width: 930px;
+    position: static;
+    display: block;
+    margin-top: 40px;
+    margin-left: 283px;
+}
+
+hr{
+    margin-left: 283px;
+    width: 930px;
+}
+
+.foot{
+    height: 200px;
+    width: 1400px;
+    background-color: rgba(128, 128, 128, 0.205);
+    position: static;
+    display: block;
+    margin-left: 283px;
+    margin-top: 40px;
+}
+
+.foot li{
+    list-style-type: none;
+}
+
+.foot a{
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+.columna1 {
+    float: left;
+    width: 150px;
+    position: static;
+    display: inline;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.columna2{
+    float: left;
+    width: 150px;
+    position: static;
+    display: inline;
+    margin-left: 250px;
+}
+
+.columna3 {
+    float: left;
+    width: 150px;
+    position: static;
+    display: inline;
+    margin-left: 250px;
+}
+
+.columna4{
+    float: left;
+    width:  150px;
+    position: static;
+    display: inline;
+    margin-left: 250px;
+}
+
+.final{
+    position: static;
+    display: block;
+    width: 99%;
+    margin-top: 20px;
+}
+
+.columna5 {
+    float: left;
+    width: 200px;
+    position: static;
+    display: inline;
+    margin-left: 300px;
+}
+
+.columna6 a{
+    font-size: x-large;
+    font-family: 'Changa', sans-serif;
+    text-shadow: 1px 1px rgba(46, 45, 45, 0.664) ;
+    text-decoration: none;
+    float: left;
+    width: 200px;
+    position: static;
+    display: inline;
+    margin-left: 1400px;
+}
